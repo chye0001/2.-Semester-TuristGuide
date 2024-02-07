@@ -1,0 +1,23 @@
+h1, h3, h4{
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+p, nav{
+    text-align: center;
+}
+
+nav{
+    border-collapse: collapse;
+    border: 1px solid black ;
+    background-color: #e8deea;
+}
+
+footer{
+    font-size: 10px;
+    text-align: center;
+    border-top: 1px solid black;
+    margin: 20px;
+    margin-top: 40px;
+}
