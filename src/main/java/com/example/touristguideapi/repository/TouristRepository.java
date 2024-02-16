@@ -1,10 +1,12 @@
 package com.example.touristguideapi.repository;
 
 import com.example.touristguideapi.model.TouristAttraction;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Repository
 public class TouristRepository {
 
     private List<TouristAttraction> database;

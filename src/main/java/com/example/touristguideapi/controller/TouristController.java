@@ -13,10 +13,10 @@ import java.util.List;
 @RequestMapping("/attractions")
 public class TouristController {
 
-    private TouristService touristService;
+    private final TouristService touristService;
 
-    public TouristController(){
-        this.touristService = new TouristService();
+    public TouristController(TouristService touristService){
+        this.touristService = touristService;
     }
 
     @GetMapping("")
